@@ -1,0 +1,232 @@
+/* navigation panel  */
+.navSize {
+    height: 90px;
+}
+
+.container {
+    margin: 0;
+}
+
+.nav-height {
+    position: relative;
+    bottom: 30px;
+
+}
+
+/* .nav-height {
+    position: relative;
+    bottom: 30px;
+
+} */
+.nav-icon {
+    margin-right: 30px;
+
+}
+
+/* .nav-icon p{
+   
+} */
+.nav-logo {
+    margin-left: 50px;
+}
+
+.icon-size {
+    font-size: 21px;
+    user-select: none;
+
+}
+
+.icon-position {
+    position: absolute;
+    right: 8%;
+}
+
+.icon-position1 {
+    position: absolute;
+    right: 4%;
+}
+
+.tab-links {
+
+   font-weight: bold;
+  
+    color: black;
+   
+    
+    width:auto;
+    user-select: none;
+
+}
+
+.icon-links {
+    position: relative;
+    user-select: none;
+}
+
+.login-link {
+    width:auto;
+    
+    font-weight: bold;
+    
+    color: black;
+    user-select: none;
+
+}
+
+.icon-links::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    background: #000000;
+    transition: 0.3s;
+
+}
+
+.icon-links:hover:after {
+    width: 100%;
+}
+
+.main-nav {
+    margin-right: 120px;
+
+}
+.side-menu:hover{
+    border:none;
+}
+.seen{
+    display: none;
+}
+@media(max-width:990px) {
+    .seen{
+        display: block;
+    }
+
+}
+
+/* media-quaries for responsivenes*/
+@media(max-width:991px) {
+    .icon-position {
+        position: absolute;
+        right:15%;
+    }
+
+    .icon-position1 {
+        position: absolute;
+        right: 10%;
+    }
+}
+
+/* @media(max-width:723px) {
+    .icon-position {
+        position: absolute;
+        left: 16%;
+    }
+
+    .icon-position1 {
+        position: absolute;
+        left: 9%;
+    }
+} */
+@media (max-width:500px) {
+    .icon-position {
+        position: absolute;
+        right: 20%;
+    }
+
+    .icon-position1 {
+        position: absolute;
+        right: 13%;
+    }
+    .heading{
+        font-size:1.5rem;
+    }
+    .wraping{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .middle-text {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        margin: 0;
+        font-size: 1.15rem;
+        color: white;
+        width: 95%;
+        height: 70%;
+        background-color: #000000;
+    }
+
+}
+@media (max-width:450px) {
+    .icon-position {
+        position: absolute;
+        right: 23%;
+    }
+
+    .icon-position1 {
+        position: absolute;
+        right: 16%;
+    }
+    
+}
+@media(max-width:650px) {
+    
+
+    .nav-logo img {
+        width: 80px;
+
+    }
+
+    .nav-logo {
+        margin-left: 30px;
+    }
+}
+
+/* media-quaries */
+
+/* Login Page */
+.heading{
+    font-weight: 400;
+    size: 80px;
+}
+.form {
+    margin: 30px;
+}
+
+.user_data {
+    width: 80%;
+    padding: 1.5%;
+}
+
+.login {
+    text-align: center;
+    margin-top: auto;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #000000;
+    padding: 17px 25px 17px 25px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
